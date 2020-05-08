@@ -12,6 +12,13 @@
 		<main class="container">
 			<slot/>
 		</main>
+		<div class="repo-link__wrapper">
+			<h2>JAMstack e-commerce example with Apicart, FaunaDB, Gridsome and Netlify</h2>
+			<a href="https://github.com/apicart/article-apicart-gridsome-fauna-netlify" target="_blank" class="repo-link" rel="noopener">
+				<strong>Checkout the repository</strong>
+				<strong class="repo-link__icon apicart-icon-arrow-right-circle"></strong>
+			</a>
+		</div>
 		<apicart-checkout-dialog ref="apicartCheckoutDialog" />
 		<apicart-cart-dialog ref="apicartCartDialog" />
 		<apicart-order-dialog ref="apicartOrderDialog" />
@@ -79,5 +86,24 @@ body {
 .header__wrapper {
 	border-bottom: 1px solid #eee;
 	padding: 20px 10px
+}
+
+.repo-link__wrapper {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.repo-link {
+	text-decoration: none;
+    color: inherit;
+    border: 1px solid;
+    padding: 8px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 2px;
+}
+.repo-link__icon {
+	margin-left: 4px;
 }
 </style>
