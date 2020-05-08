@@ -12,9 +12,9 @@ export default {
 		'apicart-category': ApicartCategory,
 	},
 	metaInfo: {
-		title: 'Category',
+		title: 'JAMstack e-commerce',
 		meta: [
-			{ key: 'description', name: 'description', content: 'Amazing e-commerce!' }
+			{ key: 'description', name: 'description', content: 'JAMstack e-commerce example using Apicart, FaunaDB, Gridsome and Netlify!' }
 		]
 	}
 }
