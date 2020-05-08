@@ -1,0 +1,25 @@
+{
+	"name": "e-commerce",
+	"private": true,
+	"scripts": {
+		"build": "gridsome build",
+		"develop": "gridsome develop",
+		"explore": "gridsome explore"
+	},
+	"dependencies": {
+		"@apicart/core-sdk": "^1.0.0-alpha4",
+		"@apicart/js-utils": "^1.0.0-alpha4",
+		"@apicart/payments-sdk": "^1.0.0-alpha4",
+		"@apicart/store-sdk": "^1.0.0-alpha4",
+		"@apicart/vue-components": "^1.0.0-alpha4",
+		"@apicart/web-components-localization": "^1.0.0-alpha4",
+		"faunadb": "^2.14.0",
+		"gridsome": "0.7.12",
+		"vue-i18n": "^8.17.4"
+	},
+	"browserslist": [
+		"last 1 version",
+		"> 1%",
+		"IE 11"
+	]
+}

@@ -1,0 +1,20 @@
+version: '3'
+services:
+    server:
+        container_name: gridsome
+        build: .
+        working_dir: /usr/share/nginx/html
+        volumes:
+            - ./:/usr/share/nginx/html:delegated
+        ports:
+            - 86:8080
+        tty: true
+    web:
+        container_name: gridsome-build
+        build: .
+        working_dir: /usr/share/nginx/html
+        volumes:
+            - ./dist:/usr/share/nginx/html:delegated
+        ports:
+            - 82:80
+        tty: true

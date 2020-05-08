@@ -1,0 +1,9 @@
+{
+	"id": "8",
+	"name": "Men's Modern green t-shirt",
+	"categoryKeyPath": "clothes.discount",
+	"pageUrl": "/discounts/green-t-shirt/",
+	"price": 25,
+	"taxRate": 21,
+	"description": "<p><span style=\"letter-spacing: 0.32px\">Men's green sport T-shirt</span><br></p>"
+}
