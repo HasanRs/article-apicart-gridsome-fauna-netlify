@@ -1,7 +1,5 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
-
-export * from '@apicart/vue-components/lib';
 import {
 	ApicartSkeletonBundleSdk,
 	ApicartProductDetail,

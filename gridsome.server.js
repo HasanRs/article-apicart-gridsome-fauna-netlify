@@ -4,10 +4,13 @@ const q = faunadb.query;
 const client = new faunadb.Client({ secret: process.env.FAUNADB_SECRET })
 const Utils = require('@apicart/js-utils');
 
+
 module.exports = function (api) {
-	api.chainWebpack(config => {
-		config.mode('development')
-	});
+ 	if (process.env.ENV === 'dev') {
+		api.chainWebpack(config => {
+			config.mode('development')
+		});
+	}
 
 	api.createManagedPages(async ({ createPage }) => {
 		// 1. Preload data from Fauna Database
