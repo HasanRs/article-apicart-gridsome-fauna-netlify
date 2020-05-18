@@ -21,6 +21,9 @@ if (process.env.GRIDSOME_APICART_ENV === 'dev') {
 ApicartSkeletonBundleSdk.configure({
 	store: new ApicartSkeletonBundleSdk.Store({ token: process.env.GRIDSOME_APICART_STORE_TOKEN }),
 	vueComponents: {
+		paymentMethodsList: {
+			allowedMethods: ['cash', 'bank-transfer']
+		},
 		cartDropdown: {
 			dropdownPosition: 'right'
 		},
