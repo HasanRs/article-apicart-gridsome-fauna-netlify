@@ -7,15 +7,15 @@
 		"explore": "gridsome explore"
 	},
 	"dependencies": {
-		"@apicart/core-sdk": "^1.0.0-alpha5",
-		"@apicart/js-utils": "^1.0.0-alpha5",
-		"@apicart/payments-sdk": "^1.0.0-alpha5",
-		"@apicart/store-sdk": "^1.0.0-alpha5",
-		"@apicart/vue-components": "^1.0.0-alpha5",
-		"@apicart/web-components-localization": "^1.0.0-alpha5",
-		"faunadb": "^2.14.0",
+		"@apicart/core-sdk": "^1.0.0-alpha6",
+		"@apicart/js-utils": "^1.0.0-alpha6",
+		"@apicart/payments-sdk": "^1.0.0-alpha6",
+		"@apicart/store-sdk": "^1.0.0-alpha6",
+		"@apicart/vue-components": "^1.0.0-alpha6",
+		"@apicart/web-components-localization": "^1.0.0-alpha6",
+		"faunadb": "^2.14.1",
 		"gridsome": "0.7.12",
-		"vue-i18n": "^8.17.4"
+		"vue-i18n": "^8.17.6"
 	},
 	"browserslist": [
 		"last 1 version",
