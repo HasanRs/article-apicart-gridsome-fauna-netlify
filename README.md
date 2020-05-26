@@ -1,17 +1,17 @@
 # Apicart, Gridsome, FaunaDB e-commerce template
 
-This is a code for article
+This is a code for article [JAMstack e-commerce using Apicart, FaunaDB, Gridsome and Netlify](https://dev.to/machy8/jamstack-e-commerce-using-apicart-faunadb-gridsome-and-netlify-39jm).
 The application runs on the [https://apicart-fauna-gridsome-example.netlify.app/](https://apicart-fauna-gridsome-example.netlify.app/).
 
 ### 1. Usage
 
 1. Install dependencies `yarn install`
-2. Move `template.env` into the `.env` file.
+2. Move `template.env` into the `.env` file
 3. Sign up on [Fauna.com](https://fauna.com/), create server token and add it into the `.env` file (`FAUNADB_SECRET`)
 4. Sign up on [Apicart.net](https://apicart.net/en-us/product/apicart-store/getting-started/installation/), copy store sdk tokens and paste them into the `.env` file (`GRIDSOME_APICART_STORE_TOKEN`)
-5. Add products and translations into the FaunaDB according to the article
+5. Add products and translations into the FaunaDB according to the [article](https://dev.to/machy8/jamstack-e-commerce-using-apicart-faunadb-gridsome-and-netlify-39jm)
 6. Run build `yarn build`
-7. The app should be available on [http://localhost](http://localhost).
+7. The app should be available on [http://localhost](http://localhost)
 
 Note, that Apicart is not able to get product files from http://localhost.
 You have to deploy the app somewhere and then get the files from accessible url. The url can be easily modified
